@@ -1,0 +1,48 @@
+.bg-img1 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(anh1.jpg);
+
+  height: 70vh;
+  width: 0 auto;
+}
+.bg-img2 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(anh2.jpg);
+
+  height: 70vh;
+  width: 0 auto;
+}
+.bg-img3 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(anh3.jpg);
+
+  height: 70vh;
+  width: 0 auto;
+}
+.link1 {
+  display: flex;
+  width: 0 auto;
+  margin-top: 120px;
+  margin-left: 80px;
+}
+.link2 {
+  display: flex;
+}
+.link3 {
+  margin-left: 760px;
+}
+.link4 {
+  margin-left: 20px;
+}
+
+.link4::before {
+  content: "•";
+  color: blue;
+  display: inline-block;
+  width: 1em;
+  font: 13px sans-serif;
+  margin-left: -1em;
+}
